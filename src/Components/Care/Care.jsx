@@ -11,10 +11,10 @@ import man4 from "../../assets/Ellipse 5.png";
 const Care = () => {
   return (
     <div>
-      <div className="mt-[50px] justify-center flex gap-6">
-        <div className="max-w-[216px] border-[#02004333] border-[0.5px] p-5 min-h-[312px] bg-white rounded-[24px]">
-          <p className="text-[40px] font-semibold">90%</p>
-          <p className="text-[14px] w-[156px]">
+      <div className="mt-[50px] justify-center lg:flex gap-6">
+        <div className="lg:max-w-[216px] border-[#02004333] border-[0.5px] p-5 min-h-[312px] bg-white rounded-[24px]">
+          <p className="lg:text-[40px] text-[80px] font-semibold">90%</p>
+          <p className="lg:text-[14px] text-[30px] lg:w-[156px]">
             Patient satisfaction rate, reflecting our commitment.
           </p>
           <img
@@ -25,11 +25,11 @@ const Care = () => {
         </div>
         <div>
           <div>
-            <h1 className="text-[48px] font-semibold text-center">
+            <h1 className="lg:text-[48px] text-[30px] font-semibold text-center">
               Comprehensive Care <br /> for Every Patient
             </h1>
           </div>
-          <div className="flex mx-auto gap-6">
+          <div className="lg:flex mx-auto gap-6">
             <div className="min-w-[216px] border-[#02004333] border-[0.5px] relative p-4 max-h-[190px] bg-[#FFFFF5] rounded-[24px]">
               <p className="text-[40px] font-semibold">500+</p>
               <p className="text-[14px] w-[115px]">Board-certified doctors</p>
@@ -54,7 +54,7 @@ const Care = () => {
                 <img className="absolute left-16" src={man4} alt="" />
               </div>
             </div>
-            <div className="min-w-[216px] border-[#02004333] border-[0.5px] relative p-5 max-h-[190px] bg-[#FFFFF5] rounded-[24px]">
+            <div className="min-w-[216px] border-[#02004333] lg:mb-0 mb-5 mt-5 lg:mt-0 border-[0.5px] relative p-5 max-h-[190px] bg-[#FFFFF5] rounded-[24px]">
               <p className="text-[40px] font-semibold">$5000</p>
               <p className="text-[14px] w-[115px]">
                 Money spend for poor patient
@@ -67,9 +67,11 @@ const Care = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-[216px] border-[#02004333] border-[0.5px] p-5 min-h-[312px] bg-white rounded-[24px]">
-          <p className="text-[40px] font-semibold">50%</p>
-          <p className="text-[14px] w-[156px]">Free lesson video for patient</p>
+        <div className="lg:max-w-[216px] border-[#02004333] border-[0.5px] p-5 min-h-[312px] bg-white rounded-[24px]">
+          <p className="lg:text-[40px] text-[80px] font-semibold">50%</p>
+          <p className="lg:text-[14px] text-[30px] lg:w-[156px]">
+            Free lesson video for patient
+          </p>
           <img className="w-[132px] h-[127px] mx-auto mt-10" src={vid} alt="" />
         </div>
       </div>

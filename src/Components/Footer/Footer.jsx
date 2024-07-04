@@ -3,7 +3,7 @@ import Social from "../../assets/Group 9168.png";
 
 const Footer = () => {
   return (
-    <footer className="footer text-white mt-[160px] min-h-[442px] bg-[#020043] px-[165px] pt-[120px] ">
+    <footer className="footer text-white mt-10 lg:mt-[160px] min-h-[442px] bg-[#020043] px-[165px] pt-[120px] ">
       <aside>
         <img src={doc} alt="" />
         <p className="mt-6">
